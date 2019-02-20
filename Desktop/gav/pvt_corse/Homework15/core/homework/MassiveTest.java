@@ -197,7 +197,9 @@ public class MassiveTest {
 		Massive m = new Massive();
 		int[] b = { 10, 0, 7 };
 
+
 		assertThat(m.isEmpty(b, 1) is(not(False)));
+
 	}
 
 	@After
