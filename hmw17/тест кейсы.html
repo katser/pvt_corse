@@ -1,0 +1,40 @@
+
+id: 1
+priority: high
+requirement: 1
+module: главная mail.ru
+submodule: форма логина
+summary: вход в личный кабинет
+ c корректными данными
+steps:
+1. открыть сайт mail.ru
+2. в поле с xpath="//*[@id="mailbox:login"]" ввести логин gav.mail.ru
+3. в поле с xpath="//*[@id="mailbox:password"]" ввести пароль gav96
+4. нажать на кнопку с xpath="//*[@id="mailbox:submit"]/input"
+Expected results: появляется элемент с xpath= "//*[@id="mailbox:write_letter"]/div"
+
+id: 2
+priority: medium
+requirement: 2
+module: главная mail.ru
+submodule: форма логина
+summary: вход в личный кабинет
+с sql инъекцией
+steps:
+1. открыть сайт mail.ru
+2. в поле с xpath="//*[@id="mailbox:login"]" ввести логин '
+3. в поле с xpath="//*[@id="mailbox:password"]" ввести пароль '
+4. нажать на кнопку с xpath="//*[@id="mailbox:submit"]/input"
+Expected results: появляется сообщение с ошибкой
+
+id: 3
+priority: high
+requirement: 3
+module: главная mail.ru
+submodule: форма поиска
+summary: поиск с корректными данными
+steps:
+1. открыть сайт mail.ru
+2. в поле с xpath="//*[@id="q"]" ввести ‘’’гугл’
+3. нажать на кнопку с xpath="//*[@id="search:submit"]"
+Expected results: открывается страница с результатами запроса по слову ’гугл’
