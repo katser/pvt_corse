@@ -1,0 +1,22 @@
+
+M1 {
+color: #ff0000;
+font-size: 200%;
+font-family: Arial, Verdana, sans-serif;
+text-align: center;
+text-decoration: line-through;
+text-decoration: underline;
+
+}
+M2 {
+    color: #008000;
+    font-size: 200%;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+}
+M3 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11pt; /* Размер шрифта в пунктах */
+}
+}
+
