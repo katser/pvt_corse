@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Refs>
+	<Data>
+		<ForMail id="1">
+			<mail>"max_kacer@mail.ru"</mail>
+		</ForMail>
+		<ForMail id="2">
+			<mail>"tkacer@inbox.ru"</mail>
+		</ForMail>
+	</Data>
+</Refs>
